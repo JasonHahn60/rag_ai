@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="_6DKbL7X02YxhA7WK7Fa">
+    <mxGraphModel dx="2072" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L9TvePdmCQZXVEKv_d65-1" value="Encoder/Retriever" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L9TvePdmCQZXVEKv_d65-1" target="L9TvePdmCQZXVEKv_d65-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="460" as="sourcePoint" />
+            <mxPoint x="325" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-4" value="Vectorized Knowledge Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-5" value="User Question" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L9TvePdmCQZXVEKv_d65-5" target="L9TvePdmCQZXVEKv_d65-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="610" as="sourcePoint" />
+            <mxPoint x="525" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L9TvePdmCQZXVEKv_d65-4" target="L9TvePdmCQZXVEKv_d65-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="610" as="sourcePoint" />
+            <mxPoint x="525" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-8" value="Vector Similarity Search" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="460" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-10" value="Relevant Text Chunks" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L9TvePdmCQZXVEKv_d65-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="610" as="sourcePoint" />
+            <mxPoint x="455" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-13" value="Google Gemini 1.5 LLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-14" value="User Question + Text Chunks" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="370" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L9TvePdmCQZXVEKv_d65-13" target="L9TvePdmCQZXVEKv_d65-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="610" as="sourcePoint" />
+            <mxPoint x="645" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-16" value="Relevant Answer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9TvePdmCQZXVEKv_d65-17" value="LLM uses original user question along with the retrieved texts to generate an answer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="480" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
