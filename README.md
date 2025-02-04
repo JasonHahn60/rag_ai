@@ -15,5 +15,6 @@ The RAG system is integrated into a web application using Google Agent Builderâ€
 Users can query the model via an embedded search widget.
 
 How to Use
+
 Visit [jasonhahn60.github.io](https://jasonhahn60.github.io/) and enter a query in the search bar under AI Showcase.
 The model retrieves relevant book passages and generates an answer.
