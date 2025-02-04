@@ -1,4 +1,5 @@
 Overview
+
 This project implements a Retrieval-Augmented Generation (RAG) system using Google Cloud Vertex AI Agent Builder to perform semantic search and question-answering on book texts. The system leverages Google's Gemini-1.5-Flash-001 model for retrieval and answer generation.
 
 How It Works
